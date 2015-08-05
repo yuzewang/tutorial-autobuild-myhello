@@ -5,5 +5,5 @@ http.createServer(function(request, response) {
     response.writeHead(200, {"Content-Type": "text/plain"});
     response.write("Hi, you are visiting " + os.hostname() + "\n");
     response.end();
-}).listen(8080);
-console.log("Server is running, listening on port 8080....");
+}).listen(80);
+console.log("Server is running, listening on port 80....");
